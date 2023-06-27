@@ -25,8 +25,14 @@
         </div>   
     @endif
 
-<div class="col-10 pull-right">
-<div style="margin-top: 80px"> 
+<div class="col-12 pull-right" style="margin-bottom: 28%">
+    df
+</div>
+
+<div class="container">    
+<div class="col-12 pull-right" style="width: 200%">
+<div style="margin-top: 10%; width: 110%;"> 
+<hr>
    <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left"> 
@@ -119,6 +125,7 @@
 </div>
 </div>
 
+</div>
 <script>
     // display a small modal
     $(document).on('click', '#smallButton', function(event){
@@ -181,7 +188,6 @@
         $(".alert").fadeOut();
     }, 3000);
 </script>
-
 </body>
 </html>
 @endsection

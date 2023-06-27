@@ -12,10 +12,10 @@ class AccountController extends Controller
      */
     public function index()
     {
-        $accounts = Account::latest()->paginate(5);
+        $accounts = Account::latest()->paginate(3);
 
         return view('accounts.index',compact('accounts'))
-            ->with('i', (request()->input('page', 1) - 1) * 5);
+            ->with('i', (request()->input('page', 1) - 1) * 3);
     }
 
     /**
