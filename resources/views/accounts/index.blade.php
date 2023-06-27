@@ -14,7 +14,7 @@
     <body>
 
 <div style="height: 200em; position: fixed; width: 100%; left: 0">
-<div class="col-3 pull-left" style="background: white; height: 100%; width: 10%; box-shadow: 0px 0px 10px 0 gray">
+<div class="col-3 pull-left" style="background: white; height: 100%; width: 10%; box-shadow: 0px 0px 10px 0 gray; text-align: center;">
     <strong>Hello!</strong>
 </div>
 </div>
