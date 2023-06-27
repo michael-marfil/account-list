@@ -13,13 +13,19 @@
     </head>
     <body>
 
+<div style="height: 200em; position: fixed; width: 100%; left: 0">
+<div class="col-3 pull-left" style="background: white; height: 100%; width: 10%; box-shadow: 0px 0px 10px 0 gray">
+    <strong>Hello!</strong>
+</div>
+</div>
     @if ($message = Session::get('success'))
         <div class="alert alert-success" role="alert" style="width: 25%; position: fixed; padding: 20px; right: 0; margin-top: 10px; border-left: 5px solid rgb(48 120 55); font-size: 12px;">
             <button type="button" class="close" data-dismiss="alert">&times</button>
             <p>{{ $message }}</p>
         </div>   
     @endif
-        
+
+<div class="col-10 pull-right">
 <div style="margin-top: 80px"> 
    <div class="row">
     <div class="col-lg-12 margin-tb">
@@ -110,6 +116,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <script>
