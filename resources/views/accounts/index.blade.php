@@ -24,7 +24,7 @@
    <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left"> 
-            <h2>Account</h2>
+            <h2>Accounts</h2>
         </div>
         <div class="pull-right">
             <a class="btn btn-success text-light" data-toggle="modal" id="mediumButton" data-target="#mediumModal" href="{{ route('accounts.create') }}">Create Account</a>
