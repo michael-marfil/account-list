@@ -84,9 +84,9 @@
         @endforeach
     </table>
     @else
-        <div style="text-align: center; margin-top: 150px;">
-            <img class="md:block" src="images/empty.png" alt="" width="35%"/>
-            <p style="font-size: 25px;">No Data Found</p>
+        <div style="text-align: center;">
+            <img class="md:block" src="images/empty.png" alt="" width="23%"/>
+            <p style="font-size: 14px;">No Data Found</p>
         </div>
     @endif
 
