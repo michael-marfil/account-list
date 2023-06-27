@@ -34,7 +34,7 @@
     @endif
 
 <div class="col-12 pull-right" style="margin-bottom: 28%">
-    df
+
 </div>
 
 <div class="container">    
