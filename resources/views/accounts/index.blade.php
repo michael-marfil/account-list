@@ -24,10 +24,10 @@
    <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left"> 
-            <h2>Accounts</h2>
+            <h1>Accounts</h1>
         </div>
         <div class="pull-right">
-            <a class="btn btn-success text-light" data-toggle="modal" id="mediumButton" data-target="#mediumModal" href="{{ route('accounts.create') }}">Create Account</a>
+            <a class="btn btn-success text-light" data-toggle="modal" id="mediumButton" data-target="#mediumModal" href="{{ route('accounts.create') }}" style="font-size: 14px; padding: 4px 10px 4px 10px">Create Account</a>
         </div>
     </div>
 </div>
