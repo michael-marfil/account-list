@@ -76,7 +76,7 @@
         </div>
     @endif
 
-    <div style="text-align: center; font-size: 11px;">
+    <div style="font-size: 11px; text-align: center;">
        {!! $accounts->links() !!}
     </div>
 
