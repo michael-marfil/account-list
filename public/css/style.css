@@ -1,0 +1,54 @@
+.detailsModal{
+    padding: 10px;
+    font-size: 14px;
+}
+.detailsModal strong{
+    padding-right: 20px;
+}
+.detailsModal .row h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.editModal{
+    padding: 10px;
+    font-size: 14px;   
+}
+.editModal .row h2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.editModal input[type=text]{
+    font-size: 11px
+}
+.editModal button{
+    width: 50%;
+}
+.editModal a{
+    width: 30%;
+}
+#editBtn{
+    margin-top: 20px;
+}
+
+.createModal{
+    padding: 10px;
+    font-size: 14px;
+}
+.createModal .row h2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.createModal input[type=text]{
+    font-size: 11px
+}
+.createModal button{
+    width: 50%;
+}
+.createModal a{
+    width: 30%;
+}
+#createBtn{
+    margin-top: 20px;
+}
