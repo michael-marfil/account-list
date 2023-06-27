@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2 style="margin-left: 30px"> Show Account</h2>
+                <h2 style="margin-left: 30px">User Details</h2>
             </div>
         </div>
     </div>
